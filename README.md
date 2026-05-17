@@ -48,7 +48,9 @@ Organizations often track goals in spreadsheets and email. This portal gives a *
 
 High-level diagram (SVG):
 
-![Architecture](./docs/architecture.svg)
+![Architecture diagram — AtomQuest system overview](docs/architecture.svg)
+
+If the preview above does not load in your viewer, open the file directly: [docs/architecture.svg](docs/architecture.svg).
 
 **Runtime components (Docker Compose)**
 

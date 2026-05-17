@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" font-family="-apple-system,Segoe UI,sans-serif">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#f8fafc"/>
@@ -9,111 +10,102 @@
     </marker>
   </defs>
   <rect width="1100" height="700" fill="url(#bg)"/>
-  <text x="550" y="35" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">AtomQuest 1.0  Architecture</text>
-  <text x="550" y="55" text-anchor="middle" font-size="12" fill="#475569">Goal Setting &amp; Tracking Portal � Hackathon submission</text>
+  <text x="550" y="35" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">AtomQuest 1.0 - Architecture</text>
+  <text x="550" y="55" text-anchor="middle" font-size="12" fill="#475569">Goal Setting and Tracking Portal - Hackathon submission</text>
 
-  <!-- USERS -->
   <g>
     <rect x="40" y="100" width="180" height="80" rx="10" fill="#1e293b"/>
-    <text x="130" y="130" text-anchor="middle" fill="white" font-weight="600">=e Users</text>
-    <text x="130" y="150" text-anchor="middle" fill="#cbd5e1" font-size="11">Employee � Manager � Admin</text>
-    <text x="130" y="166" text-anchor="middle" fill="#cbd5e1" font-size="11">Browser � MS Teams � Email</text>
+    <text x="130" y="130" text-anchor="middle" fill="#ffffff" font-weight="600">Web Users</text>
+    <text x="130" y="150" text-anchor="middle" fill="#cbd5e1" font-size="11">Employee | Manager | Admin</text>
+    <text x="130" y="166" text-anchor="middle" fill="#cbd5e1" font-size="11">Browser | MS Teams | Email</text>
   </g>
 
-  <!-- FRONTEND -->
   <g>
     <rect x="280" y="90" width="220" height="220" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
     <text x="390" y="115" text-anchor="middle" font-weight="700" fill="#1e3a8a">Frontend (React + Vite)</text>
-    <text x="390" y="135" text-anchor="middle" font-size="11" fill="#1e3a8a">Tailwind � shadcn/ui � TanStack Query</text>
+    <text x="390" y="135" text-anchor="middle" font-size="11" fill="#1e3a8a">Tailwind | TanStack Query</text>
     <line x1="295" y1="145" x2="485" y2="145" stroke="#93c5fd"/>
-    <text x="390" y="165" text-anchor="middle" font-size="11">Employee: Goals � Check-ins</text>
-    <text x="390" y="183" text-anchor="middle" font-size="11">Manager: Team � Approve � Risk</text>
-    <text x="390" y="201" text-anchor="middle" font-size="11">Admin: Cycles � Audit � Escalations</text>
-    <text x="390" y="219" text-anchor="middle" font-size="11">Analytics (Recharts) � Reports</text>
-    <text x="390" y="237" text-anchor="middle" font-size="11">SSO picker � WS toasts</text>
-    <text x="390" y="263" text-anchor="middle" font-size="10" fill="#475569" font-style="italic">Axios JWT interceptor � WS hook</text>
-    <text x="390" y="285" text-anchor="middle" font-size="10" fill="#475569">Docker: nginx:alpine on :80</text>
+    <text x="390" y="165" text-anchor="middle" font-size="11">Employee: Goals | Check-ins</text>
+    <text x="390" y="183" text-anchor="middle" font-size="11">Manager: Team | Approve | Risk</text>
+    <text x="390" y="201" text-anchor="middle" font-size="11">Admin: Cycles | Audit | Escalations</text>
+    <text x="390" y="219" text-anchor="middle" font-size="11">Analytics (Recharts) | Reports</text>
+    <text x="390" y="237" text-anchor="middle" font-size="11">SSO picker | WebSocket toasts</text>
+    <text x="390" y="263" text-anchor="middle" font-size="10" fill="#475569" font-style="italic">Axios JWT | WS hook</text>
+    <text x="390" y="285" text-anchor="middle" font-size="10" fill="#475569">Docker: nginx:alpine :80</text>
   </g>
 
-  <!-- BACKEND -->
   <g>
     <rect x="560" y="90" width="240" height="320" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
     <text x="680" y="115" text-anchor="middle" font-weight="700" fill="#14532d">Backend (FastAPI)</text>
-    <text x="680" y="135" text-anchor="middle" font-size="11" fill="#14532d">Python 3.11 � async SQLAlchemy 2 � Pydantic v2</text>
+    <text x="680" y="135" text-anchor="middle" font-size="11" fill="#14532d">Python 3.11 | SQLAlchemy 2 async | Pydantic v2</text>
     <line x1="575" y1="145" x2="785" y2="145" stroke="#86efac"/>
-    <text x="680" y="165" text-anchor="middle" font-size="11" font-weight="600">API surface (/api/v1)</text>
-    <text x="680" y="183" text-anchor="middle" font-size="10">auth � users � cycles � goals � approvals</text>
-    <text x="680" y="199" text-anchor="middle" font-size="10">checkins � shared-goals � ai � blockchain</text>
-    <text x="680" y="215" text-anchor="middle" font-size="10">reports � analytics � admin � escalations</text>
-    <text x="680" y="231" text-anchor="middle" font-size="10">notifications � sso � ws</text>
+    <text x="680" y="165" text-anchor="middle" font-size="11" font-weight="600">API (/api/v1)</text>
+    <text x="680" y="183" text-anchor="middle" font-size="10">auth | users | cycles | goals | approvals</text>
+    <text x="680" y="199" text-anchor="middle" font-size="10">checkins | shared-goals | ai | blockchain</text>
+    <text x="680" y="215" text-anchor="middle" font-size="10">reports | analytics | admin | escalations</text>
+    <text x="680" y="231" text-anchor="middle" font-size="10">notifications | sso | websocket</text>
     <line x1="575" y1="245" x2="785" y2="245" stroke="#86efac"/>
     <text x="680" y="265" text-anchor="middle" font-size="11" font-weight="600">Services</text>
-    <text x="680" y="283" text-anchor="middle" font-size="10">goal � approval � audit � cycle</text>
-    <text x="680" y="299" text-anchor="middle" font-size="10">ai (Claude) � blockchain � escalation</text>
-    <text x="680" y="315" text-anchor="middle" font-size="10">event � notification � shared-goal � report</text>
-    <text x="680" y="345" text-anchor="middle" font-size="10" fill="#475569" font-style="italic">JWT � RBAC � rate-limit � CORS</text>
-    <text x="680" y="365" text-anchor="middle" font-size="10" fill="#475569">Docker: python:3.11-slim on :8000</text>
+    <text x="680" y="283" text-anchor="middle" font-size="10">goal | approval | audit | cycle</text>
+    <text x="680" y="299" text-anchor="middle" font-size="10">ai (Claude) | blockchain | escalation</text>
+    <text x="680" y="315" text-anchor="middle" font-size="10">events | notifications | reports</text>
+    <text x="680" y="345" text-anchor="middle" font-size="10" fill="#475569" font-style="italic">JWT | RBAC | rate-limit | CORS</text>
+    <text x="680" y="365" text-anchor="middle" font-size="10" fill="#475569">Docker: python:3.11-slim :8000</text>
     <text x="680" y="385" text-anchor="middle" font-size="10" fill="#475569">/health checks DB + Redis</text>
   </g>
 
-  <!-- DB -->
   <g>
     <rect x="860" y="90" width="200" height="120" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
     <text x="960" y="115" text-anchor="middle" font-weight="700" fill="#7c2d12">PostgreSQL 15</text>
-    <text x="960" y="135" text-anchor="middle" font-size="11">asyncpg � Alembic</text>
+    <text x="960" y="135" text-anchor="middle" font-size="11">asyncpg | Alembic</text>
     <line x1="875" y1="145" x2="1045" y2="145" stroke="#fcd34d"/>
-    <text x="960" y="160" text-anchor="middle" font-size="10">users � performance_cycles � goals</text>
-    <text x="960" y="175" text-anchor="middle" font-size="10">quarterly_checkins � shared_goal_links</text>
-    <text x="960" y="190" text-anchor="middle" font-size="10">audit_logs � escalation_rules � _logs</text>
+    <text x="960" y="160" text-anchor="middle" font-size="10">users | cycles | goals</text>
+    <text x="960" y="175" text-anchor="middle" font-size="10">checkins | shared_goal_links</text>
+    <text x="960" y="190" text-anchor="middle" font-size="10">audit_logs | escalation_rules</text>
   </g>
 
-  <!-- REDIS -->
   <g>
     <rect x="860" y="225" width="200" height="80" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
     <text x="960" y="252" text-anchor="middle" font-weight="700" fill="#7f1d1d">Redis 7</text>
-    <text x="960" y="270" text-anchor="middle" font-size="11">Cache � Pub/Sub � Broker</text>
-    <text x="960" y="288" text-anchor="middle" font-size="10">AI cache � WS fan-out</text>
+    <text x="960" y="270" text-anchor="middle" font-size="11">Cache | Pub/Sub | Celery broker</text>
+    <text x="960" y="288" text-anchor="middle" font-size="10">AI cache | WS fan-out</text>
   </g>
 
-  <!-- CELERY -->
   <g>
     <rect x="860" y="320" width="200" height="90" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
     <text x="960" y="345" text-anchor="middle" font-weight="700" fill="#4c1d95">Celery 5 + Beat</text>
     <text x="960" y="365" text-anchor="middle" font-size="11">Daily escalation evaluator</text>
-    <text x="960" y="383" text-anchor="middle" font-size="11">Async email � Teams dispatch</text>
-    <text x="960" y="400" text-anchor="middle" font-size="10" fill="#475569">redis:// broker</text>
+    <text x="960" y="383" text-anchor="middle" font-size="11">Async email | Teams dispatch</text>
+    <text x="960" y="400" text-anchor="middle" font-size="10" fill="#475569">Redis broker</text>
   </g>
 
-  <!-- EXTERNAL INTEGRATIONS -->
   <g>
     <rect x="40" y="460" width="220" height="190" rx="12" fill="#ecfeff" stroke="#0891b2" stroke-width="2"/>
     <text x="150" y="485" text-anchor="middle" font-weight="700" fill="#155e75">Integrations</text>
     <line x1="55" y1="495" x2="245" y2="495" stroke="#a5f3fc"/>
-    <text x="55" y="515" font-size="11">> Anthropic Claude API</text>
-    <text x="65" y="530" font-size="10" fill="#475569">score � parse NL � risk � insights</text>
-    <text x="55" y="555" font-size="11">� Polygon Amoy (Web3.py)</text>
-    <text x="65" y="570" font-size="10" fill="#475569">GoalAuditTrail.sol � mock|live</text>
-    <text x="55" y="595" font-size="11">� Microsoft Entra ID (SSO)</text>
-    <text x="65" y="610" font-size="10" fill="#475569">OAuth code flow � mock picker</text>
-    <text x="55" y="635" font-size="11">=� SMTP � =� Teams webhook</text>
+    <text x="55" y="515" font-size="11" fill="#155e75">Anthropic Claude API</text>
+    <text x="65" y="530" font-size="10" fill="#475569">score | parse NL | risk | insights</text>
+    <text x="55" y="555" font-size="11" fill="#155e75">Polygon Amoy (Web3)</text>
+    <text x="65" y="570" font-size="10" fill="#475569">GoalAuditTrail.sol | mock or live</text>
+    <text x="55" y="595" font-size="11" fill="#155e75">Microsoft Entra ID (SSO)</text>
+    <text x="65" y="610" font-size="10" fill="#475569">OAuth code flow | mock picker</text>
+    <text x="55" y="635" font-size="11" fill="#155e75">SMTP | Teams webhook</text>
   </g>
 
-  <!-- FEATURES -->
   <g>
     <rect x="290" y="460" width="510" height="190" rx="12" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
-    <text x="545" y="485" text-anchor="middle" font-weight="700" fill="#0f172a">End-to-end features (BRD + bonus)</text>
+    <text x="545" y="485" text-anchor="middle" font-weight="700" fill="#0f172a">Features (BRD + bonus)</text>
     <line x1="305" y1="495" x2="785" y2="495" stroke="#cbd5e1"/>
-    <text x="305" y="515" font-size="11" font-weight="600">Phase 1  Goal lifecycle</text>
-    <text x="315" y="530" font-size="10">Create � 100% weightage rule � max 8 goals � min 10%</text>
-    <text x="315" y="545" font-size="10">Submit � manager approve/return/inline-edit � lock � blockchain hash</text>
-    <text x="305" y="565" font-size="11" font-weight="600">Phase 2  Check-ins</text>
-    <text x="315" y="580" font-size="10">Quarterly windows (May/Jul/Oct/Jan/Apr) � score formulas � shared sync</text>
-    <text x="305" y="600" font-size="11" font-weight="600">Bonus</text>
-    <text x="315" y="615" font-size="10">SSO � Email/Teams � Escalation engine � AI Coach � Blockchain � Analytics</text>
-    <text x="315" y="630" font-size="10">Real-time WS � Reports (CSV/XLSX) � Audit log � Org hierarchy</text>
+    <text x="305" y="515" font-size="11" font-weight="600" fill="#0f172a">Phase 1 - Goal lifecycle</text>
+    <text x="315" y="530" font-size="10" fill="#334155">Create | 100% weight | max 8 goals | min 10%</text>
+    <text x="315" y="545" font-size="10" fill="#334155">Submit | approve / return / edit | lock | blockchain hash</text>
+    <text x="305" y="565" font-size="11" font-weight="600" fill="#0f172a">Phase 2 - Check-ins</text>
+    <text x="315" y="580" font-size="10" fill="#334155">Quarterly windows | score formulas | shared goal sync</text>
+    <text x="305" y="600" font-size="11" font-weight="600" fill="#0f172a">Bonus</text>
+    <text x="315" y="615" font-size="10" fill="#334155">SSO | Email/Teams | Escalations | AI | Blockchain | Analytics</text>
+    <text x="315" y="630" font-size="10" fill="#334155">WebSocket | CSV/XLSX reports | Audit | Org hierarchy</text>
   </g>
 
-  <!-- ARROWS -->
   <line x1="220" y1="140" x2="280" y2="190" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
   <line x1="500" y1="200" x2="560" y2="200" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
   <line x1="500" y1="180" x2="560" y2="180" stroke="#475569" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
@@ -123,5 +115,5 @@
   <line x1="800" y1="350" x2="860" y2="360" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
   <line x1="260" y1="540" x2="560" y2="270" stroke="#0891b2" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
 
-  <text x="40" y="680" font-size="10" fill="#475569">Mock-mode toggles: BLOCKCHAIN_MODE=mock � SSO_MODE=mock � empty SMTP/Teams � JSON log dispatcher.</text>
+  <text x="40" y="680" font-size="10" fill="#475569">Mock toggles: BLOCKCHAIN_MODE=mock | SSO_MODE=mock | empty SMTP/Teams uses JSON log.</text>
 </svg>
