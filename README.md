@@ -12,8 +12,8 @@ Full-stack **goal setting and quarterly tracking** web portal built for the **At
 > **Clone:** After you create the GitHub repository (see [Publishing to GitHub](#publishing-to-github)), replace the URL below with your repo URL.
 >
 > ```bash
-> git clone https://github.com/Prachi01Yadav/<your-repo-name>.git
-> cd <your-repo-name>
+> git clone https://github.com/Prachi01Yadav/atomberg_portal.git
+> cd atomberg_portal
 > ```
 
 ---
