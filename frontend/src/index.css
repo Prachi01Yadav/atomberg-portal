@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-slate-50 via-white to-blue-50/40 text-slate-900 antialiased;
+  min-height: 100vh;
+}
+
+/* Card surface */
+.surface {
+  @apply bg-white border border-slate-200 rounded-2xl shadow-soft;
+}
+
+/* Stat tile */
+.stat {
+  @apply surface p-5 transition hover:shadow-card hover:-translate-y-0.5;
+}
+
+/* Section heading */
+.section-h {
+  @apply text-xs uppercase font-semibold text-slate-500 tracking-wider mb-3;
+}
+
+/* Pretty scrollbar */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { @apply bg-slate-300 rounded; }
+::-webkit-scrollbar-thumb:hover { @apply bg-slate-400; }

@@ -1,0 +1,30 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": false, "internalType": "uint256", "name": "goalId", "type": "uint256" },
+      { "indexed": false, "internalType": "bytes32", "name": "dataHash", "type": "bytes32" },
+      { "indexed": false, "internalType": "address", "name": "by", "type": "address" },
+      { "indexed": false, "internalType": "uint256", "name": "timestamp", "type": "uint256" }
+    ],
+    "name": "GoalHashed",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "goalId", "type": "uint256" },
+      { "internalType": "bytes32", "name": "dataHash", "type": "bytes32" }
+    ],
+    "name": "recordHash",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [{ "internalType": "uint256", "name": "goalId", "type": "uint256" }],
+    "name": "getHashes",
+    "outputs": [{ "internalType": "bytes32[]", "name": "", "type": "bytes32[]" }],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
