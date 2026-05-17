@@ -7,7 +7,7 @@
 
 Full-stack **goal setting and quarterly tracking** web portal built for the **AtomQuest 1.0** hackathon (AtomBerg). It covers **Phase 1 & 2 must-haves**, **Phase 3 roles**, **Phase 4 reporting & governance**, **Section 5 bonus features**, plus three product pillars: **AI-assisted goals**, **blockchain-backed audit trail**, and **real-time updates**.
 
-**Author / contributor:** [@Prachi01Yadav](https://github.com/Prachi01Yadav) only
+**Author / contributor:** [@Prachi01Yadav](https://github.com/Prachi01Yadav) 
 
 > **Clone:** After you create the GitHub repository (see [Publishing to GitHub](#publishing-to-github)), replace the URL below with your repo URL.
 >
