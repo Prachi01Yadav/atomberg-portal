@@ -7,7 +7,7 @@
 
 Full-stack **goal setting and quarterly tracking** web portal built for the **AtomQuest 1.0** hackathon (AtomBerg). It covers **Phase 1 & 2 must-haves**, **Phase 3 roles**, **Phase 4 reporting & governance**, **Section 5 bonus features**, plus three product pillars: **AI-assisted goals**, **blockchain-backed audit trail**, and **real-time updates**.
 
-**Author:** [Prachi Yadav](https://github.com/Prachi01Yadav)
+**Author / contributor:** [@Prachi01Yadav](https://github.com/Prachi01Yadav) only
 
 > **Clone:** After you create the GitHub repository (see [Publishing to GitHub](#publishing-to-github)), replace the URL below with your repo URL.
 >
@@ -295,7 +295,7 @@ Notable public endpoint: **`GET /api/v1/system/info`** — returns `ai_mode`, `b
 
 ## Publishing to GitHub
 
-This repository is maintained by **[Prachi01Yadav](https://github.com/Prachi01Yadav)**.
+This repository is authored and maintained solely by **[Prachi01Yadav](https://github.com/Prachi01Yadav)** (no co-authors).
 
 1. On GitHub: **New repository** (e.g. `atomquest-goal-portal`), **empty**, no README (you already have one here).
 2. On your machine (from the **`atomquest`** folder that contains this README):
@@ -327,4 +327,4 @@ This project is submitted as part of **AtomQuest Hackathon 1.0**. Unless stated 
 
 ---
 
-**Repository maintainer:** [@Prachi01Yadav](https://github.com/Prachi01Yadav) · **Product name:** AtomBerg / AtomQuest Goal Portal
+**Repository:** [@Prachi01Yadav](https://github.com/Prachi01Yadav) · **Product name:** AtomBerg / AtomQuest Goal Portal
