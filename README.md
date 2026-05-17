@@ -1,4 +1,4 @@
-# AtomQuest 1.0 — Goal Setting & Tracking Portal
+# AtomQuest 1.0 : Goal Setting & Tracking Portal
 
 [![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/UI-React%2018-61DAFB?style=flat&logo=react)](https://react.dev/)
