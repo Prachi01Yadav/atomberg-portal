@@ -5,12 +5,15 @@
 [![TypeScript](https://img.shields.io/badge/lang-TypeScript-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
 [![Docker](https://img.shields.io/badge/deploy-Docker-2496ED?style=flat&logo=docker)](https://www.docker.com/)
 
+
+
 Full-stack **goal setting and quarterly tracking** web portal built for the **AtomQuest 1.0** hackathon (AtomBerg). It covers **Phase 1 & 2 must-haves**, **Phase 3 roles**, **Phase 4 reporting & governance**, **Section 5 bonus features**, plus three product pillars: **AI-assisted goals**, **blockchain-backed audit trail**, and **real-time updates**.
+
+**Working demo**:  https://atomberg-web.onrender.com
 
 **Author / contributor:** [@Prachi01Yadav](https://github.com/Prachi01Yadav) 
 
-> **Clone:** After you create the GitHub repository (see [Publishing to GitHub](#publishing-to-github)), replace the URL below with your repo URL.
->
+>**Clone**
 > ```bash
 > git clone https://github.com/Prachi01Yadav/atomberg_portal.git
 > cd atomberg_portal
@@ -255,17 +258,6 @@ SSO mock: login screen → **Microsoft Entra ID** → picker page.
 
 ---
 
-## Judge / presentation pack
-
-| Asset | Use |
-|-------|-----|
-| [`docs/demo-judge-slide.html`](./docs/demo-judge-slide.html) | Fullscreen cheat sheet (URLs, credentials, mock vs live script) |
-| [`scripts/demo-prep.ps1`](./scripts/demo-prep.ps1) | Removes stray **draft** goals for demo employees so submit stays valid |
-| Login page | Expand **For judges** — shows integration modes from `/api/v1/system/info` |
-| Sidebar | **System mode**: amber = mock, green = live |
-
----
-
 ## API documentation
 
 Interactive OpenAPI: **`GET /docs`** on the running backend.
@@ -295,37 +287,10 @@ Notable public endpoint: **`GET /api/v1/system/info`** — returns `ai_mode`, `b
 
 ---
 
-## Publishing to GitHub
-
-This repository is authored and maintained solely by **[Prachi01Yadav](https://github.com/Prachi01Yadav)** (no co-authors).
-
-1. On GitHub: **New repository** (e.g. `atomquest-goal-portal`), **empty**, no README (you already have one here).
-2. On your machine (from the **`atomquest`** folder that contains this README):
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: AtomQuest Goal Portal (hackathon submission)"
-git branch -M main
-git remote add origin https://github.com/Prachi01Yadav/<your-repo-name>.git
-git push -u origin main
-```
-
-Or with [GitHub CLI](https://cli.github.com/) (`gh auth login` first):
-
-```bash
-gh repo create Prachi01Yadav/<your-repo-name> --public --source=. --remote=origin --push
-```
-
-3. Update the clone URL at the top of this README to match your final repo name.
-
-**Before pushing:** confirm `git status` does **not** list `.env`, `venv/`, `node_modules/`, or local `.db` files.
-
----
-
+``
 ## License
 
-This project is submitted as part of **AtomQuest Hackathon 1.0**. Unless stated otherwise by the author, code may be reused with attribution to the repository and hackathon context.
+This project is submitted as part of **AtomQuest Hackathon 1.0**.
 
 ---
 
